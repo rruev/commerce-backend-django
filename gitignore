@@ -1,0 +1,72 @@
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# If using the collectstatic command
+/static/
+
+# Environment variables
+.env
+.env.*
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# macOS
+.DS_Store
+
+# Virtual environment
+venv/
+.env/
+
+# Pipenv
+Pipfile.lock
+
+# Migrations (optional, if auto-generating them per environment)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+# Optional: uncomment to ignore initial migrations (not recommended if you want to version them)
+# **/migrations/*.py
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# Test reports
+junit.xml
+coverage.xml
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# Pyre
+.pyre/
+
+# Bandit
+output.json
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/

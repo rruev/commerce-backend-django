@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 import React, { useActionState } from "react";
 import { signup } from "../actions/auth";
 
-export default function LogIn() {
+export default function Register() {
   const [state, action, pending] = useActionState(signup, undefined);
 
   return (

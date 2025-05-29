@@ -1,6 +1,7 @@
 "use server";
 
 import { FormState, SignupFormSchema } from "../lib/definitons";
+import { cookies } from "next/headers";
 
 export async function signup(state: FormState, formData: FormData) {
     const validatedFields = SignupFormSchema.safeParse({
@@ -44,3 +45,4 @@ export async function signup(state: FormState, formData: FormData) {
         };
       }
 }
+

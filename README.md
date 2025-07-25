@@ -1,2 +1,2 @@
 # Commerce
-The backend for my Demo E-commerce site
+Developing REST API to learn Django REST Framework.
